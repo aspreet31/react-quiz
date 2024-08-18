@@ -1,5 +1,5 @@
 # react-quiz
-A **react** quiz application that manages complex state logic using the **useReducer** hook.
+A **react** quiz application that manages complex state logic using the **useReducer** hook and solving props drilling problem using **Context API**.
 
 ### Link
 Live site url - https://react-quiz-h7uz.onrender.com/
