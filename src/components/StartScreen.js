@@ -1,5 +1,7 @@
+import { useQuiz } from "../context/QuizContext"
 
-export default function Ready({numQuestions,dispatch}){
+export default function Ready(){
+    const {dispatch,numQuestions}=useQuiz();
     return <div className="start">
         <h2>Welcome to The React Quiz</h2>
         <h3>{numQuestions} questions to test your React mastery</h3>
