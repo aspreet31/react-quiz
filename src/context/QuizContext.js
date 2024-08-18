@@ -63,7 +63,7 @@ function reducer(state, action) {
       throw new Error("Action unknown");
   }
 }
-function QuizProvider({Children}){
+function QuizProvider({children}){
       const [
     { questions, status, index, answer, points, highscore, secondRemaining },
     dispatch,
@@ -94,7 +94,7 @@ function QuizProvider({Children}){
         secondRemaining,
         numQuestions,maxPossiblePoints,
         dispatch
-    }}>{Children}
+    }}>{children}
     </QuizContext.Provider>)
 }
 
